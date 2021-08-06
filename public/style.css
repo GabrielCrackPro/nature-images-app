@@ -1,0 +1,13 @@
+* {
+  font-family: "PT Sans", sans-serif;
+}
+*::selection {
+  background: #006400;
+  color: #fff;
+}
+.green {
+  background: #006400;
+}
+.outline-green:focus {
+  outline: 1px solid #006400;
+}
