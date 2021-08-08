@@ -11,3 +11,11 @@
 .outline-green:focus {
   outline: 1px solid #006400;
 }
+img:hover {
+  transform: scale(1.2);
+  transition: transform 0.3s;
+}
+img:not(:hover) {
+  transform: scale(1);
+  transition: transform 0.3s;
+}
